@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            GitHub Intro
+        </title>
+        <link rel="stylesheet" href="../../components/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../../components/reveal.js/css/theme/default.css">
+    </head>
+    
+    <body>
+        <div class="reveal">
+        
+        <div class="slides">
+    <section>
+        <section>
+            <h1>github</h1>
+<p>Getting started</p>
+</section>
+            <section>
+                <p>
+</p>
+<h3>Let's talk about</h3>
+<ul>
+    <li class="fragment">
+        <span style="letter-spacing: -0.02em;">What is Git (and GitHub)?</span>
+    </li>
+    <li class="fragment">
+        <span style="letter-spacing: -0.02em;">Repos, Branches, Forks</span>
+    </li>
+    <li class="fragment">
+        <span style="letter-spacing: -0.02em;">Issues</span>
+    </li>
+    <li class="fragment">
+        <span style="letter-spacing: -0.02em;">Client interface</span>
+    </li>
+    <li class="fragment">
+        <span style="letter-spacing: -0.02em;">Write some code!</span>
+    </li>
+</ul>
+<p>
+</p>
+
+</section>
+            </section>
+            <section>
+                <section>
+                    <h1>what is git?</h1>
+                    <div>(and GitHub?)</div>
+                </section>
+                <section>
+                    <h2>Git vs github</h2>
+                    <div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <span style="text-align: center; letter-spacing: -0.02em;">Git is a free, open source&nbsp;</span>
+                                    <br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>version control system</div>
+                        <div>
+                            <br>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <span style="text-align: center; letter-spacing: -0.02em;">GitHub is a company that offers</span>
+                                    <br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <span style="letter-spacing: -0.02em;">hosting of Git repositories (plus extras)</span>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div>
+    <h2>
+                    <span style="letter-spacing: -0.02em;">tfs is centralized</span>
+                </h2>
+                <div>
+                    <span style="letter-spacing: -0.02em;">*graphic of centralized tfs commits/branches</span>
+                </div>
+</div>
+</section>
+                <section>
+                    <h2>git is distributed</h2>
+                    <div>* graphic of distributed github commits/branches</div>
+                </section>
+                <section>
+                    <h2>Other differences</h2>
+                    <div>
+                        <ul>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Forks</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Branching, merging is less painful</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">One folder per repository</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Doesn't lock files</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>repos, forks,&nbsp;</h1>
+                    <h1>branches</h1>
+                </section>
+                <section>
+                    <h2>repos</h2>
+                    <div>
+                        <ul>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Always production-ready code</span>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Anyone in UX could merge anytime</span>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Limited number of private repos</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Unlimited public repos</span>
+                                <br>
+                            </li>
+                        </ul>
+                        <div>
+                            <br>
+                        </div>
+                    </div>
+                </section>
+                                <section>
+                <div>
+                    <img src="img/framework-arch.png" />
+                </div>
+            </section>
+                <section>
+                    <h2>FORKS</h2>
+                    <div>
+                        <ul>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Copies entire repo, including branches</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Happens on GitHub, not locally</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Great for creating derivative works</span>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Anyone can do it, no authorization needed</span>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Pull-request to get changes back into master</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h2>BRANCHES</h2>
+                    <div>
+                        <ul>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Copies repo locally</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Must be authorized</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Easy to merge back to master via pull-request</span>
+                            </li>
+                            <li class="fragment">
+                                <span style="letter-spacing: -0.02em; text-align: center;">We'll be using these a lot</span>
+                                <br>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>issues</h1>
+                </section>
+                <section>
+                    <h2>Bug tracking / todos</h2>
+                    <div>
+                        <ul>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Repo-specific</span>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Automatically creating for pull requests</span>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Similar to todo items in BaseCamp</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Can assign to someone, add comments</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h2>discussions</h2>
+                    <div>
+                        <ul>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Great for gathering opinions</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Can 'tag' specific people in comments</span>
+                                <br>
+                            </li>
+                            <li class="fragment">
+                                <span style="text-align: center; letter-spacing: -0.02em;">Notifications make them easy to track</span>
+                                <br>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <h1>CLIENT UI</h1>
+            </section>
+            <section>
+                <h1>DEMO</h1>
+            </section>
+        </div>
+
+
+        </div> <!-- end reveal div -->
+        <script type="text/javascript" src="build/scripts/main.js">
+                        
+        </script>
+    </body>
+
+</html>

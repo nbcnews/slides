@@ -1,0 +1,20 @@
+What is Git
+	• Git is a free and open source VCS
+	• GitHub is a company that offer Git repo hosting
+	• Git vs. TFS
+	• Distributed, not centralized
+	• Branching, merging is improved
+	• One folder for each repo, regardless of number of branches
+
+Repos, branches, forks
+	• We currently have 20 total private repos allowed, we're at about 10
+	• Branches are better for smaller, iterative changes. Allows anyone to push changes.
+	• Forks are considered more separate, independent efforts to make changes to an exist repo, the changes in the fork may never make it back to the orig branch, but it can be updated the other direction
+
+Issues (good for bug tracking, conversations)
+	• 
+
+Overview of the client
+
+
+Demo: Overview of the web interface, change some code, create a branch, commit, submit pull request, write comments, merge pr
