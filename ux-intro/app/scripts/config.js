@@ -13,7 +13,11 @@ require.config({
 			deps: ['underscore', 'jquery'],
 			exports: 'Backbone'
 		},
+		'head': {
+			exports: 'head'
+		},
 		'reveal': {
+			deps: ['head'],
 			exports: 'Reveal'
 		}
 	},
@@ -24,6 +28,7 @@ require.config({
 		backbone: '../../components/backbone/backbone',
         templates: '../build/templates',
         hogan: '../../components/hogan/dist/hogan.template-3.0.0.amd',
+        head: '../../components/reveal.js/lib/js/head.min',
         reveal: '../../components/reveal.js/js/reveal'
 	}
 
