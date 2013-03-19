@@ -8,12 +8,9 @@ app.configure(function(){
 
 });
 
-
 app.get('/', function(req, res) {
-
-    res.redirect('/app')
+    res.redirect('/ux-intro/app');
 });
-
 
 app.use(express.static(__dirname));
 app.use(express.directory(__dirname));
