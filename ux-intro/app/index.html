@@ -5,6 +5,23 @@
         <meta charset="UTF-8">
         <title>UX</title>
         <link rel="stylesheet" href="build/styles/main.css">
+        <style type="text/css">
+            .credit {
+                width: 70%;
+                margin: 5px auto !important;
+                text-align: right;
+                font-size: 90% !important;
+            }
+            .credit img {
+                width: 10%;
+                margin-right: 20px !important;
+            }
+            .credit span {
+                display: block;
+                float: right;
+                margin-top: 35px !important;
+            }
+        </style>
     </head>
     
     <body>
@@ -105,12 +122,14 @@
                         <h2>Troubled times</h2>
                         <ul>
                             <li>Interactive storytelling proved difficult to scale</li>
-                            <li class="fragment">Org structure got in the way of collaboration</li>
-                            <ul class="fragment">
-                                <li>Developers in Technology</li>
-                                <li>Designers, Interactive Producers & Concepts<br/>separate groups within Editorial</li>
-                                <li>Nobody dedicated to site design</li>
-                            </ul>
+                            <div class="fragment">
+                                <li>Org structure got in the way of collaboration</li>
+                                <ul>
+                                    <li>Developers in Technology</li>
+                                    <li>Designers, Interactive Producers & Concepts<br/>separate groups within Editorial</li>
+                                    <li>Nobody dedicated to site design</li>
+                                </ul>
+                            </div>
                         </ul>
                         <aside class="notes">
                             <ul>
@@ -146,6 +165,7 @@
                         <img src="img/msnbc-2008.jpg"/>
                         <aside class="notes">
                             <ul>
+                                <li>First dedicated Site UI team created</li>
                                 <li>Out-sourced design to editors</li>
                                 <li>Creative vs Tech tension deepened</li>
                             </ul>
@@ -166,6 +186,7 @@
                         <aside class="notes">
                             <ul>
                                 <li>Creative team grew in number and talent</li>
+                                <li>Many current leads joined during this time</li>
                             </ul>
                         </aside>
                     </section>
@@ -183,10 +204,10 @@
                         </aside>
                     </section>
                     <section>
-                        <h2>Faster, better ... and still falling behind</h2>
+                        <h2>Faster, better ...<br/>and still falling behind</h2>
                         <ul>
                             <li>Pace of industry change accelerated</li>
-                            <li>Technology and increasingly dev-oriented Creatives<br/>struggled to collaborate internally</li>
+                            <li class="fragment">Technology and increasingly dev-oriented Creatives<br/>struggled to collaborate internally</li>
                         </ul>
                         <aside class="notes">
                             <ul>
@@ -210,7 +231,7 @@
                     </section>
                     <section>
                         <h2>2010</h2>
-                        <p>{story pages}</p>
+                        <img src="img/msnbc-story.png" style="background: none; border: none;"/>
                         <aside class="notes">
                             <ul>
                                 <li>Built on a new tech platform, SkyPad</li>
@@ -228,7 +249,17 @@
                     </section>
                     <section>
                         <h2>2010</h2>
-                        <p>{blog pages}</p>
+                        <img src="img/msnbc-mobile.png" style="background: none; border: none;" />
+                        <aside class="notes">
+                            <ul>
+                                <li>Also, small Creative investment in mobile web</li>
+                                <li>Preceded 'responsive design' approach</li>
+                            </ul>
+                        </aside>
+                    </section>
+                    <section>
+                        <h2>2010</h2>
+                        <img src="img/msnbc-blog.png" style="background: none; border: none;"/>
                         <aside class="notes">
                             <ul>
                                 <li>Meanwhile, small blog investment on Newsvine</li>
@@ -237,16 +268,7 @@
                             </ul>
                         </aside>
                     </section>
-                    <section>
-                        <h2>2010</h2>
-                        <p>{mobile pages}</p>
-                        <aside class="notes">
-                            <ul>
-                                <li>Also, small Creative investment in mobile web</li>
-                                <li>Preceded 'responsive design' approach</li>
-                            </ul>
-                        </aside>
-                    </section>
+                    
                     <section>
                         <h2>2011</h2>
                         <img src="img/today-home2-2011.png"/>
@@ -286,6 +308,7 @@
                         <aside class="notes">
                             <ul>
                                 <li>Editorial shifted to franchise strategy</li>
+                                <li>Initial idea was 'mobile forward'</li>
                                 <li>Small team built cross-device demo</li>
                                 <li>Iterations lead to usability, A/B tests, pilot</li>
                                 <li>SkyPad technology with content from Newsvine</li>
@@ -294,6 +317,7 @@
                                 <li>Unsure of content strategy with ownership change</li>
                                 <li>Invested in FLOW editorial tool over new features</li>
                                 <li>Blue site creative team focused on elections, slow to take ownership of experience</li>
+                                <li>Tension between iterative approach and product quality</li>
                             </ul>
                         </aside>
                     </section>
@@ -312,12 +336,20 @@
                         </aside>
                     </section>
                     <section>
+                        <blockquote style="text-align: left; padding: 10px;">It's important that we build a UX discipline. Being part of a larger cohesive UX team allows us to share ideas, findings via analytics and ultimately work smarter.</blockquote>
+                        <p class="credit">
+                            <img src="img/shezad.jpg"/>
+                            <span><strong>Shezad Morani,</strong> Creative Director</span>
+                        </p>
+                    </section>
+                    <section>
                         <h2>Leasons learned</h2>
                         <ul>
                             <li>App-like experiences are the future of UX</li>
-                            <li>Building editorial tools distracts us from this</li>
-                            <li>Dedicated brand teams must lead product design</li>
-                            <li>Keeping up with change is a full-time job</li>
+                            <li class="fragment">Building editorial tools distracts us from this</li>
+                            <li class="fragment">Smaller teams & stakeholder groups are more efficient</li>
+                            <li class="fragment">Dedicated brand teams must lead product design</li>
+                            <li class="fragment">Keeping up with change is a full-time job</li>
                         </ul>
                     </section>
                 </section>
@@ -337,54 +369,71 @@
                     </section>
                     <section>
                         <h2>Single Page Applications</h2>
-                        <p>{example: Quartz?}</p>
+                        <img src="img/quartz.jpg"/>
                         <aside class="notes">
                             <ul>
                                 <li>It's an app world. Examples: Quartz, USAToday</li>
-                                <li>Study 'play-listing' and context</li>
                                 <li>Separate front-end from back-end through APIs</li>
                                 <li>Requires robust NewsAPI</li>
                                 <li>Design for devices first</li>
+                                <li>Study 'play-listing' and context</li>
                             </ul>
                         </aside>
                     </section>
                     <section>
-                        <h2>Build. Measure. Learn.</h2>
+                        <h2>Build. Measure. Learn. <span class="fragment">Share.</span></h2>
                         <ul>
-                            <li>Iterate on a framework that makes it easy to experiment.</li>
-                            <li>Prototype everything. Use real content & ads.</li>
-                            <li>Always be A/B testing. Make data-driven decisions.</li>
+                            <li class="fragment">Prototype everything. Use real content & ads.</li>
+                            <li class="fragment">Make data-driven decisions. Always be A/B testing.</li>
+                            <li class="fragment">Evolve experiences. Make redesigns irrelevant.</li>
+                            <li class="fragment">Collaborate with like minds via open-source code</li>
                         </ul>
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
-                        <h3><a href="http://side-nav-deploy.herokuapp.com/app/">Demo: SideNav</a></h3>
+                        <h3 class="fragment"><a href="http://side-nav-deploy.herokuapp.com/app/">Demo: http://side-nav-deploy.herokuapp.com/</a></h3>
+                        <aside class="notes">
+                            <ul>
+                                <li>Borrowed from Eric Reis, The Lean Startup</li>
+                                <li>Everyone codes</li>
+                                <li>Min. 10 hours training per month</li>
+                                <li>Framework speeds experimentation</li>
+                            </ul>
+                        </aside>
+                    </section>
+                    <section>
+                        <blockquote style="text-align: left; padding: 10px;">A particularly energizing facet about our GitHub approach is it's already opening the door to a collaborative coding community across the organization, including our peers in Comcast. Our open-source-inspired culture will fast become a potent recruiting tool.</blockquote>
+                        <p class="credit">
+                            <img src="img/colin.jpg"/>
+                            <span><strong>Colin Hicks,</strong> UX Architect</span>
+                        </p>
                     </section>
                     <section>
                         <h2>The UX Group</h2>
                         <ul>
-                            <li>Design & front-end dev only, no more tools.</li>
-                            <li>Everyone codes, commits to monthly training.<p>&nbsp;</p></li>
-                            <li>Brand teams lead site UX:</li>
+                            <li>Consumer-facing design & front-end dev<br/><br/></li>
+                            
+                            <li>Brand teams lead site UX</li>
                             <ul>
                                 <li><strong>Shezad Morani</strong> leads NBCNews.com UX</li>
                                 <li><strong>Anne Van Wagener</strong> leads TODAY.com UX</li>
-                                <li><strong>TBH</strong> to lead msnbc.com UX<p>&nbsp;</p></li>
+                                <li><strong>TBH</strong> to lead msnbc.com UX<br/><br/></li>
                             </ul>
                             
-                            <li>Shared Features team becomes R&D</li>
+                            <li>Shared Features team becomes <strong>UX R&D</strong></li>
                             <ul>
                                 <li><strong>Colin Hicks</strong> & <strong>Chris Cast</strong> lead framework dev</li>
                                 <li><strong>Gary Hebert</strong> manages team, leads UX research<p>&nbsp;</p></li>
                             </ul>
-                            <li><strong>Gabriel Nanda</strong> leads the Ad UX team</li>
+                            <li><strong>Gabriel Nanda</strong> leads the <strong>Ad UX</strong> team</li>
                         </ul>
-                    </section>
-                    <section>
-                        <h2>Final thoughts</h2>
-                        <ul>
-                            <li>Are redesign launches still relevant?</li>
-                            <li>How do we staff for data-based storytelling?</li>
-                        </ul>
+                        <aside class="notes">
+                            <ul>
+                                <li>No more editorial tool development</li>
+                                <li>R&D is applied UX research and framework dev</li>
+                                <li>Gabe's team partly reports into Sales during transition</li>
+                                <li>Data-based storytelling resource?</li>
+                            </ul>
+                        </aside>
                     </section>
                 </section>
             </div>
