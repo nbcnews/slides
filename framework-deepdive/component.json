@@ -10,6 +10,7 @@
       "mocha": "~1.8.1",
       "chai": "~1.5.0",
       "requirejs-text": "~2.0.5",
-      "hogan": "git://github.com/colinhicks/hogan.js.git"
+      "hogan": "git://github.com/colinhicks/hogan.js.git",
+      "reveal.js": "latest"
   }
 }
