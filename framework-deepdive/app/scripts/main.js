@@ -10,7 +10,7 @@ require(['reveal'], function(Reveal){
     transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
     dependencies: [
       {
-        src: '../components/reveal.js/plugin/notes/notes.js',
+        src: '../../components/reveal.js/plugin/notes/notes.js',
         async: true,
         condition: function() { return !!document.body.classList; }
       }
