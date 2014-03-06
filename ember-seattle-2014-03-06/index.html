@@ -48,34 +48,72 @@
 					<p>
 						<small>Created by Lance Harper / <a href="http://twitter.com/royallance">@royallance</a></small>
 					</p>
+					<aside class="notes">
+						<ul>
+							<li>Welcome to the Club</li>
+							<li>Thanks for interest in NBC News</li>
+							<li>Not an intro, not a deep dive.</li>
+					</aside>
+				</section>
+				<section>
+					<h2>Who are we?</h2>
+				</section>
+				<section>
+					<h2>NBCNews Digital</h2>
+					<ul>
+						<li>NBCNews.com</li>
+						<li>Today.com</li>
+						<li>MSNBC.com</li>
+						<li>CNBC.com</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Located in Seattle and NYC (30 Rock)</li>
+							<li>Formerly on Microsoft Campus, two months in Seattle</li>
+						</ul>
+					</aside>
 				</section>
 				<section>
 					<h2>Who am I?</h2>
 					<ul>
 						<li>Worked for NBCNews.com for almost two years.</li>
 						<li>Developer in UX (User Experience) R&amp;D Team</li>
-						<li>C#, JavaScript, ASP.NET MVC, Databases (SQL, RavenDB)</li>
-						<li>Helped build previous version of public NBCNews.com, previous CMS and data schema for NBCNews.com, Today.com</li>
 					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Started: C#, JavaScript, ASP.NET MVC, Databases (SQL, RavenDB)</li>
+							<li>Helped build previous version of portions NBCNews.com, previous homegrown CMS and data design for NBCNews.com, Today.com</li>
+						</ul>
+					</aside>
 				</section>
         <section>
 					<h2>Why Redesign?</h2>
 					<ul>
-						<li>Organization completely under NBC (News)</li>
-						<li>Complete redesign</li>
+						<li>Organizational shift under NBC (News)</li>
+						<li>Opportunity for redesign</li>
 						<li>New content strategy, CMS</li>
 					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Designers proficient in SASS/CSS, HTML, jQuery. Unencumbered access to markup essential.</li>
+							<li>URL is of utmost importance.</li>
+							<li>Sharing, navigation (links, back button).</li>
+							<li>Grunt, Node</li>
+						</ul>
+					</aside>
 				</section>
 				<section>
 					<h2>Why SPA/JS?</h2>
+					<p>Enhanced UX and Dev/Designer Workflow</p>
+					<aside class="notes">
 					<ul>
-						<li>Enhanced UX</li>
 						<li>Lines blurring between native, traditional web applications.</li>
 						<li>Flexibility in design (transitions, animations)</li>
 						<li>Continuous, transparent consumption</li>
 						<li>Removes need to download HTML payload between pages</li>
 						<li>Backend flexibility (relies on JSON - server platform agnostic)</li>
 					</ul>
+					</aside>
 			  </section>
 				<section>
 					<h2>Why Ember?</h2>
@@ -123,6 +161,9 @@
 						<li>Gains from environment aware client</li>
 						<li>Breakpoint aware - custom image <code>src</code> URL</li>
 					</ul>
+					<p>
+						<script src="https://gist.github.com/lanceharper/9383450.js"></script>
+				  </p>
 					<aside class="notes">
 						<ul>
 							<li>
@@ -166,20 +207,35 @@
 				<section>
 				  <h2>Testing</h2>
 					<ul>
-						<li>Codeship CI</li>
+						<li>Codeship CI (Sorry, Travis)</li>
 						<li>CasperJS</li>
 						<li>Static JSON per route</li>
 						<li>Various breakpoints</li>
 					</ul>
 			  </section>
 				<section>
+					<h1>Launch!</h1>
+				</section>
+				<section>
+					<h2>Challenges</h2>
+					<blockquote class="twitter-tweet" lang="en" align="center"><p>well, even ember can&#39;t keep people from breaking the back button <a href="http://t.co/nExmq9qMx3">http://t.co/nExmq9qMx3</a> (had to work pretty hard to mess this up)</p>&mdash; Ryan Florence (@ryanflorence) <a href="https://twitter.com/ryanflorence/statuses/431184352177713152">February 5, 2014</a></blockquote>
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</section>
+				<section>
+					<h2>Challenges</h2>
+					<h1>IE8</h1>
+				</section>
+				<section>
+					<h2>Challenges</h2>
+					<h1>IE9</h1>
+				</section>
+				<section>
 				  <h2>Challenges</h2>
 					<ul>
-						<li>API/Feed spec coordination, implementation.</li>
 						<li>Ads (other third party scripts)</li>
 						<li>HTML5 History</li>
 						<li>Legacy browser performance</li>
-						<li>SEO</li>
+						<li>Custom server rendering for SEO</li>
 						<li>Modifying destroyed views - understanding run loop</li>
 						<li>Memory awareness</li>
 					</ul>
@@ -188,7 +244,6 @@
 							<li>Another level of complexity to shape API</li>
 							<li>Ads require custom management</li>
 							<li>Third party scripts modifying the URL of iframes</li>
-							<li>Custom IE8 rendering for SEO, performance - serves ~10% of visitors</li>
 							<li>Checking willDestroy before manipulating</li>
 							<li>Memory is reset per page transition in traditional apps. Equivalent to restarting computer for C++ apps</li>
 					</aside>
@@ -200,7 +255,18 @@
 						<li>Further componentization</li>
 						<li>Performance improvements (deferred evaluation of bootstrappedJSON, scripts)</li>
 						<li>UX enhancements - request ads after scrolling, etc.</li>
+						<li>Ember ...Server</li>
 					</ul>
+					<p>
+						<code style="font-size:32px;">
+							{{display-ad location="topbannerfront" class="..." enabledAt="xlarge,xxlarge"}}
+						</code>
+					</p>
+					<p>
+						<code style="font-size:32px;">
+							{{video-player type="inline" adParams="adParams" videoIsPlaying='videoIsPlaying' videoEnded='navigateToNextItem'}}
+						</code>
+					<p>
 					<aside class="notes">
 						<ul>
 					  <li>Performance always a concern.</li>
@@ -216,9 +282,16 @@
 					</ul>
 				</section>
 				<section>
-					<h1>Thanks</h1>
+					<h2>The future...</h2>
+					<h3>From YOU!</h3>
+					<p>
+						lance.harper@nbcuni.com
+					</p>
+				</section>
+				<section>
+					<h1>Thanks!</h1>
 					<ul>
-						<li>Kris Selden and Yapp Labs</li>
+						<li>Kris Selden, Luke Melia, and Yapp Labs</li>
 						<li>Gordon Hempton</li>
 						<li>Dave Laird</li>
 						<li>EmberJS CoreTeam/Contributors/Community</li>
