@@ -46,7 +46,7 @@
 					<h1>EmberJS Seattle Meetup</h1>
 					<h3>Building NBCNews.com using EmberJS</h3>
 					<p>
-						<small>Created by Lance Harper / <a href="http://twitter.com/royallance">@royallance</a></small>
+						<small>Created by Lance Harper / twitter: <a href="http://twitter.com/royallance">@royallance</a> / github:  <a href="http://github.com/lanceharper">@lanceharper</a></small>
 					</p>
 					<aside class="notes">
 						<ul>
@@ -65,11 +65,13 @@
 						<li>Today.com</li>
 						<li>MSNBC.com</li>
 						<li>CNBC.com</li>
+            <li>BreakingNews.com</li>
 					</ul>
 					<aside class="notes">
 						<ul>
 							<li>Located in Seattle and NYC (30 Rock)</li>
 							<li>Formerly on Microsoft Campus, two months in Seattle</li>
+              <li>Formerly MSNBC.com</li>
 						</ul>
 					</aside>
 				</section>
@@ -90,15 +92,13 @@
 					<h2>Why Redesign?</h2>
 					<ul>
 						<li>Organizational shift under NBC (News)</li>
-						<li>Opportunity for redesign</li>
 						<li>New content strategy, CMS</li>
+            <li>Unify experience</li>
 					</ul>
 					<aside class="notes">
 						<ul>
-							<li>Designers proficient in SASS/CSS, HTML, jQuery. Unencumbered access to markup essential.</li>
-							<li>URL is of utmost importance.</li>
-							<li>Sharing, navigation (links, back button).</li>
-							<li>Grunt, Node</li>
+							<li>Cover, sections different</li>
+              <li>Aim for responsive design, unified experience</li>
 						</ul>
 					</aside>
 				</section>
@@ -122,7 +122,6 @@
 						<li>Opinionated architecture can allow transfer of knowledge between developers in teams, brands</li>
 						<li>Focus on the URL (routes!)</li>
 						<li>Documentation (aids in learning curve)</li>
-						<li>Open Source</li>
 						<li>Handlebars</li>
 						<li>Tooling</li>
 						<li>Browser compatibility</li>
@@ -213,15 +212,10 @@
 						<li>Various breakpoints</li>
 					</ul>
 			  </section>
-				<section>
-					<h1>Launch!</h1>
-				</section>
-				<section>
-					<h2>Challenges</h2>
-					<blockquote class="twitter-tweet" lang="en" align="center"><p>well, even ember can&#39;t keep people from breaking the back button <a href="http://t.co/nExmq9qMx3">http://t.co/nExmq9qMx3</a> (had to work pretty hard to mess this up)</p>&mdash; Ryan Florence (@ryanflorence) <a href="https://twitter.com/ryanflorence/statuses/431184352177713152">February 5, 2014</a></blockquote>
-					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</section>
-				<section>
+        <section>
+          <h2>Launched Feb. 4</h2>
+        </section>
+        <section>
 					<h2>Challenges</h2>
 					<h1>IE8</h1>
 				</section>
@@ -229,12 +223,16 @@
 					<h2>Challenges</h2>
 					<h1>IE9</h1>
 				</section>
+        <section>
+          <h2>Challenges</h2>
+          <h1>Third party scripts</h1>
+          <blockquote class="twitter-tweet" lang="en" align="center"><p>well, even ember can&#39;t keep people from breaking the back button <a href="http://t.co/nExmq9qMx3">http://t.co/nExmq9qMx3</a> (had to work pretty hard to mess this up)</p>&mdash; Ryan Florence (@ryanflorence) <a href="https://twitter.com/ryanflorence/statuses/431184352177713152">February 5, 2014</a></blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
 				<section>
 				  <h2>Challenges</h2>
 					<ul>
 						<li>Ads (other third party scripts)</li>
-						<li>HTML5 History</li>
-						<li>Legacy browser performance</li>
 						<li>Custom server rendering for SEO</li>
 						<li>Modifying destroyed views - understanding run loop</li>
 						<li>Memory awareness</li>
@@ -246,6 +244,7 @@
 							<li>Third party scripts modifying the URL of iframes</li>
 							<li>Checking willDestroy before manipulating</li>
 							<li>Memory is reset per page transition in traditional apps. Equivalent to restarting computer for C++ apps</li>
+            </ul>
 					</aside>
 				</section>
 				<section>
