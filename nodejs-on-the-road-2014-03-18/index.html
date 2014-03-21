@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>NBC News - Nodejs on the Road</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+                    <h1>Oh Hai! (^_^)</h1><br />
+                    <h3>David Corona</h3>
+					<h2>NBC News Digital</h1>
+					<h3>Today.com team</h3>
+				</section>
+
+				<section>
+					<h2>About me and stuff</h2>
+                    <ul>
+                        <li>Developer on the Today.com team for a little over a year.</li>
+                        <li>Coding since I was a wee laddie.</li>
+                        <li>A few of my favorite things: C#, javascript and Nodejs.</li>
+                        <li>Enjoys reading, hiking and late night Netflix binges.</li>
+                    </ul>
+				</section>
+
+				<section>
+					<h2>NBC + Nodejs =</h2>
+                    <h2 class="fragment">Sweet lovin</h2>
+                    <h3 class="fragment">or<br/> How we are using Nodejs</h3>
+				</section>
+
+				<section>
+					<h2>External Services</h2>
+                    <ul>
+					    <li class="fragment"><h3>Asset watcher</h3></li>
+                        <li class="fragment"><h3>Mavis <small>(not the typing tutor)</small></h3></li>
+                        <li class="fragment"><h3>Bottle Rocket Feed</h3></li>
+                        <li class="fragment"><h3>Autopilot</h3></li>
+                    </ul>
+
+                    <aside class="notes">
+                        <p>The cool thing about Nodejs is its versatility.</p>
+                        <p>Asset watcher: Watches folders for new videos from internal and external sources. Reads metadata and forwards to video API system. Internal server</p>
+                        <p>Mavis: Gets data in real-time from the Platform video player and sends update to internal news API via msg queue. Amazon</p>
+                        <p>Bottle Rocket feed: Used by the mobile apps. Gathers all video data from all sources. Caches it in memory and provides a special feed. Amazon</p>
+                        <p>Autopilot: Automated API testing. Continuously runs suite of tests against API and sends email alerts of issues. Amazon</p>
+                    </aside>
+				</section>
+
+                <section>
+                    <img src="/nbcnews_background.jpg"/>
+                </section>
+
+				<section>
+					<h2>New NBCNews.com</h2>
+					<ul>
+						<li class="fragment">Development environment for front-end devs.</li>
+                        <li class="fragment">Uses cool tools like grunt and stuff.</li>
+						<li class="fragment">Mimics production without the fuss.</li>
+						<li class="fragment">
+                            <p>Makes devs happy.</p><br />
+                            <p>Before: (╯°□°)╯︵ ┻━┻</p>
+                            <p>After: ┬─┬ ノ( ^_^ノ)</p>
+                        </li>
+					</ul>
+				</section>
+
+				<section>
+                    <h2>New Today.com</h2>
+                    <ul>
+                        <li class="fragment">Just launched new home page on mobile.</li>
+                        <li class="fragment"><em>[pause to let them browse site on phone]</em></li>
+                    </ul>
+				</section>
+
+                <section>
+                    <iframe src="http://www.today.com/todaycover/" style="border: solid 1px black; width: 380px; height: 600px;"></iframe>
+                </section>
+
+                <section>
+                    <h2>New Today.com</h2>
+                    <ul>
+                        <li>Just launched new home page on mobile.</li>
+                        <li><em>[pause to let them browse site on phone]</em></li>
+                        <li class="fragment">Baby steps.</li>
+                        <li class="fragment">Future platform to power all of Today.com.</li>
+                        <li class="fragment">This is the one that I work on.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>How Nodejs runs Today.com</h2>
+                    <p class="fragment">Hosted in IIS with iisnode</p>
+                    <p class="fragment">Good neighbors with the other .net applications.</p>
+                    <p class="fragment">
+                        CDNs, caching, web configs and rewrite rules<br/>
+                        <small><em>( may cause headaches, dizziness and upset stomach )</em></small>
+                    </p>
+                </section>
+
+                <section>
+                    <h2>But, we got it working</h2>
+                    <p>Third times a charm</p>
+                    <p class="fragment">But the 4th time was even better.</p>
+                    <p class="fragment">ᕙ(⇀‸↼‶)ᕗ</p>
+                </section>
+
+                <section>
+                    <h3>Why choose Nodejs?</h3>
+                    <p class="fragment">Go green or go home.</p>
+                    <p class="fragment">Challenge tradition and question the norm.</p>
+                    <p class="fragment">But, make sure it's gonna work first.</p>
+                    <p class="fragment">The proof is in the pudding.</p>
+                </section>
+
+                <section>
+                    <h3>The future's so bright <small>(⌐■_■)</small></h3>
+                    <p class="fragment">New deployment story</p>
+                    <p class="fragment">The rest of Today.com</p>
+                    <p class="fragment">nbcnews.com</p>
+                </section>
+
+				<section>
+					<h2>the end</h2>
+                    <p>@davesters on Twitter</p>
+                    <p>davesters on Github</p>
+                    <p>www.lovesmesomecode.com</p>
+
+                    <aside class="notes">
+                        <p>We have a job opening. Software developer for Today.com. .Net, PHP, Javascript</p>
+                    </aside>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                touch: true,
+
+				theme: 'simple', // available themes are in /css/theme
+				transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
