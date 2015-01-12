@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>NBC News - Seattle Node.js</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h2>NBC News Digital</h2>
+				</section>
+
+                <section>
+                    <h2>NBC in Seattle</h2>
+                    <ul class="fragment">
+                        <li>nbcnews.com</li>
+                        <li>today.com</li>
+                        <li>Newsvine</li>
+                        <li>Breaking News</li>
+                    </ul>
+                </section>
+
+                <section>
+					<h1>We use Node.js</h1><br /><br />
+                    <h3 class="fragment">
+                        we like it.  d(⌒ー⌒) Good!!<br />
+                        <img src="/gif_chuck_norris_thumbs_up.gif"/>
+                    </h3>
+				</section>
+
+				<section>
+					<h2>New NBCNews.com rendering</h2>
+                    <h2 class="fragment">New Today.com rendering</h2>
+                    <h2 class="fragment">External Services</h2>
+                    <h2 class="fragment">Built on top of a unified API</h2>
+                    <h2 class="fragment">Running on Linux and Windows</h2>
+				</section>
+
+				<section>
+					<h2>Before</h2>
+					<ul>
+                        <li>Full Microsoft/.NET stack</li>
+						<li>Things like MVC, MSMQ, MSSQL, RavenDB, C#</li>
+                        <li>Large VMs, huge solutions, ran slow</li>
+                        <li>Releases and builds took longer and longer</li>
+					</ul>
+				</section>
+
+                <section>
+                    <img src="/gbhcp.jpg" width="600"/>
+                </section>
+
+                <section>
+                    <h2>Now we are using Node.js</h2>
+                    <img src="/T5kIkxX.jpg" width="600"/>
+                 </section>
+
+                <section>
+                    <h3>and devs be like</h3>
+                    <img src="/CatLikeaBoss.jpg" width="600"/>
+                </section>
+
+                <section>
+                    <h2>Benefits we have seen</h2>
+                    <ul>
+                        <li class="fragment">Lighter dev environments</li>
+                        <li class="fragment">Releases much faster</li>
+                        <li class="fragment">Ramp up time a fraction of before</li>
+                        <li class="fragment">Getting new features and fixes out to users quicker</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img src="/1480924.jpg" width="600"/>
+                </section>
+
+                <section>
+					<h2>NBC News Digital</h2>
+                    <h3>Always looking for good talent</h3><br /><br />
+                    <p>David Corona, developer on today.com team</p>
+                    <p>@davesters on Twitter and Github</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                touch: true,
+
+				theme: 'simple', // available themes are in /css/theme
+				transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
